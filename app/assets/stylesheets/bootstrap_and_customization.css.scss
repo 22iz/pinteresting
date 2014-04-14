@@ -1,11 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Sniglet|Gochi+Hand|Freckle+Face);
+
 $body-bg: #f5f7f8;
-
-$navbar-inverse-bg: #27ae60;
-
-$navbar-inverse-link-color: white;
-
-$brand-primary: #f39c12;
-
+$font-family-sans-serif: 'Sniglet', cursive;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #e74c3c;
+$brand-primary: #e74c3c;
 $jumbotron-bg: #bdc3c7;
 
+$navbar-inverse-bg: #e74c3c;
+$navbar-inverse-link-color: white;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
